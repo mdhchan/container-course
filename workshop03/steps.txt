@@ -1,0 +1,14 @@
+Create a deployment
+    kubectl apply -f deployment.yaml
+
+Create a service
+    kubectl apply -f service.yaml
+
+Create a service entry
+    kubectl apply -f service-entry.yaml
+
+Create a gateway
+    kubectl apply -f gateway.yaml
+
+Create a virtual service
+    kubectl apply -f virtualservice.yaml
