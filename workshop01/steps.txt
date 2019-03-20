@@ -18,4 +18,4 @@ Deploy the application
 		-e DB_HOST=mydb \
 		--network mynet \
 		--name myapp \
-		<your image here>
+		mydb
