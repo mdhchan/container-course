@@ -8,7 +8,7 @@ Create a volume
 Deploy the database stackupiss/northwind-db:v1
 	docker run -d \
 		--network mynet \
-		--volume myvolume:/var/lib/mysql
+		--volume myvolume:/var/lib/mysql \
 		--name mydb \
 		stackupiss/northwind-db:v1
 
